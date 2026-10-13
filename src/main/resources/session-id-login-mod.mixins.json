@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "dev.funtar.mixin",
+  "compatibilityLevel": "${java}",
+  "client": [
+    "MinecraftClientMixin",
+    "MultiplayerScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
