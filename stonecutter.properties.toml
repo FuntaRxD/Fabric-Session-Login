@@ -1,0 +1,41 @@
+# Centralized properties, see https://stonecutter.kikugie.dev/wiki/config/properties
+mod.id = "session-id-login-mod"
+mod.name = "Session ID Login Mod"
+mod.group = "dev.funtar"
+mod.version = "1.3.0"
+
+# Minimum Fabric Loader declared in fabric.mod.json. Kept low because the mod only uses
+# long-stable Loader APIs (ModInitializer, FabricLoader.getModContainer); it is built against
+# a newer loader (deps.fabric_loader) but does not require that version at runtime.
+mod.loader_min = "0.15.0"
+
+deps.fabric_loader = "0.19.5"
+loomx.loom_version = "1.18-SNAPSHOT"
+
+["1.21.1"]
+mod.mc_compat = ">=1.21 <=1.21.1"
+mod.mc_releases = ["1.21", "1.21.1"]
+
+["1.21.4"]
+mod.mc_compat = ">=1.21.2 <=1.21.4"
+mod.mc_releases = ["1.21.2", "1.21.3", "1.21.4"]
+
+["1.21.8"]
+mod.mc_compat = ">=1.21.5 <=1.21.8"
+mod.mc_releases = ["1.21.5", "1.21.6", "1.21.7", "1.21.8"]
+
+["1.21.11"]
+mod.mc_compat = ">=1.21.9 <=1.21.11"
+mod.mc_releases = ["1.21.9", "1.21.10", "1.21.11"]
+
+["26.1"]
+mod.mc_compat = "~26.1"
+mod.mc_releases = ["26.1"]
+
+["26.2"]
+mod.mc_compat = "~26.2"
+mod.mc_releases = ["26.2"]
+
+["26.3"]
+mod.mc_compat = "~26.3"
+mod.mc_releases = ["26.3"]
